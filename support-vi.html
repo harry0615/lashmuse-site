@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hỗ trợ - LashMuse</title>
+  <meta name="description" content="Trang hỗ trợ của LashMuse" />
+  <style>
+    :root {
+      --bg: #0f0f12;
+      --card: #18181d;
+      --text: #f4f4f6;
+      --muted: #b8b8c2;
+      --line: #2b2b34;
+      --accent1: #ff4081;
+      --accent2: #aa00ff;
+      --link: #ff7ab8;
+      --max: 860px;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(255,64,129,0.12), transparent 30%),
+        radial-gradient(circle at top right, rgba(170,0,255,0.12), transparent 28%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, rgba(255,64,129,0.18), rgba(170,0,255,0.18));
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 28px 22px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 32px;
+      line-height: 1.15;
+    }
+
+    .sub {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 22px 20px;
+      margin-top: 14px;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 20px;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    ul {
+      margin: 0 0 12px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .topnav {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--line);
+      color: var(--text);
+      font-size: 14px;
+    }
+
+    .footer {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .lang {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+
+    @media (max-width: 640px) {
+      h1 { font-size: 26px; }
+      .hero { padding: 22px 18px; }
+      .card { padding: 18px 16px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Hỗ trợ LashMuse</h1>
+      <p class="sub">Bạn cần trợ giúp về ứng dụng, xuất ảnh, mua hàng hoặc Khôi phục mua hàng? Hãy liên hệ với chúng tôi bên dưới.</p>
+      <div class="topnav">
+        <a class="pill" href="privacy.html">Chính sách Quyền riêng tư</a>
+        <a class="pill" href="mailto:imaezings@gmail.com">Hỗ trợ qua Email</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Liên hệ</h2>
+      <p><strong>Email:</strong> <a href="mailto:imaezings@gmail.com">imaezings@gmail.com</a></p>
+      <p><strong>Tên ứng dụng:</strong> LashMuse</p>
+      <p><strong>Nhà phát triển:</strong> Imaezings</p>
+      <p><strong>Ngôn ngữ hỗ trợ:</strong> Tiếng Anh, Tiếng Hàn, Tiếng Nhật, Tiếng Tây Ban Nha, Tiếng Bồ Đào Nha, Tiếng Nga, Tiếng Indonesia, Tiếng Việt</p>
+    </section>
+
+    <section class="card">
+      <h2>Những thông tin cần cung cấp trong Email</h2>
+      <p>Để giúp chúng tôi phản hồi nhanh hơn, vui lòng cung cấp:</p>
+      <ul>
+        <li>kiểu thiết bị và phiên bản iOS của bạn;</li>
+        <li>phiên bản ứng dụng đang dùng;</li>
+        <li>mô tả ngắn gọn về sự cố;</li>
+        <li>ảnh chụp màn hình (nếu có); và</li>
+        <li>sự cố có liên quan đến việc Lưu, Chia sẻ hay Khôi phục mua hàng hay không.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Câu hỏi thường gặp (FAQ)</h2>
+
+      <p><strong>1. Ứng dụng không thể truy cập máy ảnh của tôi.</strong></p>
+      <p>
+        Mở ứng dụng Cài đặt (Settings) trên iOS, tìm LashMuse và cho phép quyền truy cập Máy ảnh.
+      </p>
+
+      <p><strong>2. Tôi không thể truy cập ảnh của mình.</strong></p>
+      <p>
+        Mở ứng dụng Cài đặt (Settings) trên iOS, tìm LashMuse và cho phép quyền truy cập ảnh.
+      </p>
+
+      <p><strong>3. Hình ảnh tôi đã lưu có độ phân giải thấp hoặc có hình mờ (watermark).</strong></p>
+      <p>
+        Việc xuất ảnh ở phiên bản miễn phí có thể có độ phân giải thấp và kèm theo hình mờ. Phiên bản Pro sẽ mở khóa tính năng xuất ảnh chất lượng HD và không có hình mờ.
+      </p>
+
+      <p><strong>4. Tôi đã mua phiên bản Pro. Làm cách nào để khôi phục?</strong></p>
+      <p>
+        Mở màn hình nâng cấp hoặc thanh toán trong ứng dụng và nhấn vào <strong>Khôi phục mua hàng (Restore Purchases)</strong>.
+      </p>
+
+      <p><strong>5. Ứng dụng không thể phân tích ảnh của tôi.</strong></p>
+      <p>
+        Để có kết quả tốt nhất, hãy sử dụng ảnh chụp rõ khuôn mặt nhìn thẳng, thấy rõ cả hai mắt và có ánh sáng tốt.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Hỗ trợ Tiếng Việt / Vietnamese Support</h2>
+      <div class="lang">
+        <div>
+          <p><strong>Email hỗ trợ:</strong> <a href="mailto:imaezings@gmail.com">imaezings@gmail.com</a></p>
+          <p>
+            Nếu bạn gặp sự cố khi sử dụng ứng dụng hoặc có câu hỏi về việc khôi phục mua hàng, lưu hoặc chia sẻ hình ảnh, vui lòng liên hệ với chúng tôi qua email ở trên.
+          </p>
+          <p>Khi liên hệ, vui lòng cung cấp các thông tin dưới đây để chúng tôi có thể hỗ trợ bạn nhanh hơn:</p>
+          <ul>
+            <li>Kiểu thiết bị và phiên bản iOS của bạn</li>
+            <li>Phiên bản ứng dụng</li>
+            <li>Mô tả chi tiết về sự cố</li>
+            <li>Ảnh chụp màn hình (nếu có)</li>
+            <li>Cho biết sự cố có liên quan đến Lưu / Chia sẻ / Khôi phục mua hàng hay không</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Quyền riêng tư</h2>
+      <p>
+        Vui lòng xem <a href="privacy.html">Chính sách Quyền riêng tư</a> của chúng tôi để biết thông tin về cách LashMuse xử lý dữ liệu của bạn.
+      </p>
+    </section>
+
+    <p class="footer">© 2026 Imaezings. Bảo lưu mọi quyền.</p>
+  </main>
+</body>
+</html>

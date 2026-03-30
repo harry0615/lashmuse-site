@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Поддержка - LashMuse</title>
+  <meta name="description" content="Страница поддержки LashMuse" />
+  <style>
+    :root {
+      --bg: #0f0f12;
+      --card: #18181d;
+      --text: #f4f4f6;
+      --muted: #b8b8c2;
+      --line: #2b2b34;
+      --accent1: #ff4081;
+      --accent2: #aa00ff;
+      --link: #ff7ab8;
+      --max: 860px;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(255,64,129,0.12), transparent 30%),
+        radial-gradient(circle at top right, rgba(170,0,255,0.12), transparent 28%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, rgba(255,64,129,0.18), rgba(170,0,255,0.18));
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 28px 22px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 32px;
+      line-height: 1.15;
+    }
+
+    .sub {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 22px 20px;
+      margin-top: 14px;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 20px;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    ul {
+      margin: 0 0 12px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .topnav {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--line);
+      color: var(--text);
+      font-size: 14px;
+    }
+
+    .footer {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .lang {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+
+    @media (max-width: 640px) {
+      h1 { font-size: 26px; }
+      .hero { padding: 22px 18px; }
+      .card { padding: 18px 16px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Поддержка LashMuse</h1>
+      <p class="sub">Нужна помощь с приложением, экспортом, покупками или их восстановлением? Свяжитесь с нами по контактам ниже.</p>
+      <div class="topnav">
+        <a class="pill" href="privacy.html">Политика конфиденциальности</a>
+        <a class="pill" href="mailto:imaezings@gmail.com">Написать в поддержку</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Контакты</h2>
+      <p><strong>Электронная почта:</strong> <a href="mailto:imaezings@gmail.com">imaezings@gmail.com</a></p>
+      <p><strong>Название приложения:</strong> LashMuse</p>
+      <p><strong>Разработчик:</strong> Imaezings</p>
+      <p><strong>Языки поддержки:</strong> Английский, Корейский, Японский, Испанский, Португальский, Русский</p>
+    </section>
+
+    <section class="card">
+      <h2>Что указать в вашем письме</h2>
+      <p>Чтобы мы могли ответить вам быстрее, пожалуйста, укажите:</p>
+      <ul>
+        <li>модель вашего устройства и версию iOS;</li>
+        <li>версию приложения;</li>
+        <li>краткое описание проблемы;</li>
+        <li>скриншоты (по возможности); и</li>
+        <li>связана ли проблема с Сохранением, Обменом (Share) или Восстановлением покупок.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Часто задаваемые вопросы (FAQ)</h2>
+
+      <p><strong>1. Приложение не может получить доступ к моей камере.</strong></p>
+      <p>
+        Откройте приложение «Настройки» в iOS, найдите LashMuse и разрешите доступ к камере.
+      </p>
+
+      <p><strong>2. Я не могу получить доступ к своим фотографиям.</strong></p>
+      <p>
+        Откройте приложение «Настройки» в iOS, найдите LashMuse и разрешите доступ к фотографиям.
+      </p>
+
+      <p><strong>3. Мое сохраненное изображение имеет низкое разрешение или водяной знак.</strong></p>
+      <p>
+        Бесплатный экспорт может быть в низком разрешении и содержать водяной знак. Версия Pro открывает экспорт в HD качестве и без водяных знаков.
+      </p>
+
+      <p><strong>4. Я уже купил(а) версию Pro. Как мне ее восстановить?</strong></p>
+      <p>
+        Откройте экран покупки (обновления) в приложении и нажмите <strong>«Восстановить покупки» (Restore Purchases)</strong>.
+      </p>
+
+      <p><strong>5. Приложение не смогло проанализировать мою фотографию.</strong></p>
+      <p>
+        Для достижения наилучших результатов используйте четкую фотографию анфас (лицом вперед), на которой хорошо видны оба глаза и есть хорошее освещение.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Поддержка на русском языке / Russian Support</h2>
+      <div class="lang">
+        <div>
+          <p><strong>Электронная почта службы поддержки:</strong> <a href="mailto:imaezings@gmail.com">imaezings@gmail.com</a></p>
+          <p>
+            Если у вас возникли проблемы при использовании приложения, вопросы по восстановлению покупок, сохранению или публикации изображений, свяжитесь с нами по указанному выше адресу.
+          </p>
+          <p>При обращении укажите следующую информацию, чтобы мы могли помочь вам быстрее:</p>
+          <ul>
+            <li>Модель устройства и версия iOS</li>
+            <li>Версия приложения</li>
+            <li>Подробное описание проблемы</li>
+            <li>Скриншоты (по возможности)</li>
+            <li>Укажите, связана ли проблема с Сохранением / Обменом / Восстановлением покупок</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Конфиденциальность</h2>
+      <p>
+        Пожалуйста, ознакомьтесь с нашей <a href="privacy.html">Политикой конфиденциальности</a>, чтобы узнать, как LashMuse обрабатывает ваши данные.
+      </p>
+    </section>
+
+    <p class="footer">© 2026 Imaezings. Все права защищены.</p>
+  </main>
+</body>
+</html>
