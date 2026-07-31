@@ -1,0 +1,19 @@
+{
+  "name": "LashMuse",
+  "short_name": "LashMuse",
+  "description": "Virtual eyelash and colored contact lens styling for iPhone.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "minimal-ui",
+  "background_color": "#080709",
+  "theme_color": "#080709",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
